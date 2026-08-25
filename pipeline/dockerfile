@@ -13,4 +13,4 @@ COPY ingest_data.py .
 
 ENV PATH="/code/.venv/bin:$PATH"
 
-ENTRYPOINT ["uv","run", "python","pipeline.py" ]
+ENTRYPOINT ["uv","run", "python","ingest_data.py" ]
